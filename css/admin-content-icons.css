@@ -1,0 +1,42 @@
+main i,
+.modal-overlay i,
+.login-wrapper i,
+.logout-card i {
+    display: none !important;
+}
+
+main [class*="-icon"]:not(.input-with-icon),
+.modal-overlay [class*="-icon"]:not(.input-with-icon),
+.login-wrapper [class*="-icon"]:not(.input-with-icon),
+.logout-card [class*="-icon"]:not(.input-with-icon) {
+    display: none !important;
+}
+
+main .icon-btn[title],
+.modal-overlay .icon-btn[title] {
+    width: auto;
+    min-width: 32px;
+    padding: 0 8px;
+    font-size: 11px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+main .icon-btn[title]::after,
+.modal-overlay .icon-btn[title]::after {
+    content: attr(title);
+}
+
+main .avatar-upload-btn[title] {
+    width: auto;
+    height: auto;
+    min-height: 32px;
+    padding: 3px 8px;
+    border-radius: 999px;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+main .avatar-upload-btn[title]::after {
+    content: "Change photo";
+}

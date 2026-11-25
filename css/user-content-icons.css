@@ -1,0 +1,13 @@
+main i,
+.modal-overlay i {
+    display: none !important;
+}
+
+main .avatar-upload-btn i {
+    display: inline-block !important;
+}
+
+main [class*="-icon"]:not(.input-with-icon),
+.modal-overlay [class*="-icon"]:not(.input-with-icon) {
+    display: none !important;
+}

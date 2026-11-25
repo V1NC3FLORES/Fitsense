@@ -1,0 +1,6 @@
+{
+    "name": "lenovo/pbl",
+    "require": {
+        "phpmailer/phpmailer": "^7.0"
+    }
+}

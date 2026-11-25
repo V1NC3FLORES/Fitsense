@@ -1,0 +1,203 @@
+html[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #0f172a;
+    --bg-secondary: #1e293b;
+    --card-bg: #1e293b;
+    --surface: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --muted: #94a3b8;
+}
+
+html[data-theme="dark"] body {
+    background-color: #0f172a !important;
+    color: #e2e8f0 !important;
+}
+
+html[data-theme="dark"] main,
+html[data-theme="dark"] main h1,
+html[data-theme="dark"] main h2,
+html[data-theme="dark"] main h3,
+html[data-theme="dark"] main h4,
+html[data-theme="dark"] main h5,
+html[data-theme="dark"] main h6,
+html[data-theme="dark"] main p,
+html[data-theme="dark"] main label,
+html[data-theme="dark"] main small,
+html[data-theme="dark"] main .text-muted,
+html[data-theme="dark"] main .page-subtitle,
+html[data-theme="dark"] main .subtitle,
+html[data-theme="dark"] main .form-label,
+html[data-theme="dark"] main .stat-label,
+html[data-theme="dark"] main .form-hint,
+html[data-theme="dark"] main td,
+html[data-theme="dark"] main [style*="color: #111827"],
+html[data-theme="dark"] main [style*="color:#111827"],
+html[data-theme="dark"] main [style*="color: #1f2937"],
+html[data-theme="dark"] main [style*="color:#1f2937"],
+html[data-theme="dark"] main [style*="color: #374151"],
+html[data-theme="dark"] main [style*="color:#374151"],
+html[data-theme="dark"] main [style*="color: #4b5563"],
+html[data-theme="dark"] main [style*="color:#4b5563"] {
+    color: #e2e8f0 !important;
+}
+
+html[data-theme="dark"] main [class*="card"],
+html[data-theme="dark"] main [class*="panel"],
+html[data-theme="dark"] main [class*="box"],
+html[data-theme="dark"] main .toolbar,
+html[data-theme="dark"] main .table-container,
+html[data-theme="dark"] main .table-card,
+html[data-theme="dark"] main .settings-nav,
+html[data-theme="dark"] main .table-responsive,
+html[data-theme="dark"] main .tab-content.active,
+html[data-theme="dark"] main [style*="background: white"],
+html[data-theme="dark"] main [style*="background-color: white"],
+html[data-theme="dark"] main [style*="background:#fff"],
+html[data-theme="dark"] main [style*="background: #fff"],
+html[data-theme="dark"] main [style*="background-color:#fff"],
+html[data-theme="dark"] main [style*="background-color: #fff"] {
+    background-color: #1e293b !important;
+    border-color: #334155 !important;
+    color: #e2e8f0 !important;
+}
+
+html[data-theme="dark"] main input:not([type="checkbox"]):not([type="radio"]),
+html[data-theme="dark"] main select,
+html[data-theme="dark"] main textarea {
+    background-color: #0f172a !important;
+    border-color: #475569 !important;
+    color: #f8fafc !important;
+}
+
+html[data-theme="dark"] main input::placeholder,
+html[data-theme="dark"] main textarea::placeholder {
+    color: #94a3b8 !important;
+}
+
+html[data-theme="dark"] main table {
+    background-color: #1e293b !important;
+    color: #e2e8f0 !important;
+}
+
+html[data-theme="dark"] main th {
+    background-color: #0f172a !important;
+    color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] main td,
+html[data-theme="dark"] main th {
+    border-color: #334155 !important;
+}
+
+html[data-theme="dark"] main tr:hover,
+html[data-theme="dark"] main .settings-nav-item:not(.active) {
+    background-color: #263449 !important;
+}
+
+html[data-theme="dark"] main a:not(.btn):not(.settings-nav-item):not(.main-tab.active) {
+    color: #7dd3fc;
+}
+
+html[data-theme="dark"] main .btn-outline,
+html[data-theme="dark"] main .btn-secondary {
+    background-color: #1e293b !important;
+    border-color: #64748b !important;
+    color: #e2e8f0 !important;
+}
+
+html[data-theme="dark"] .modal-content,
+html[data-theme="dark"] .modal-box,
+html[data-theme="dark"] .modal-card,
+html[data-theme="dark"] .chat-panel,
+html[data-theme="dark"] .chat-sidebar,
+html[data-theme="dark"] .chat-main,
+html[data-theme="dark"] .chat-main-header,
+html[data-theme="dark"] .chat-input-area {
+    background-color: #1e293b !important;
+    border-color: #334155 !important;
+    color: #e2e8f0 !important;
+}
+
+html[data-theme="dark"] .chat-messages {
+    background-color: #0f172a !important;
+}
+
+html[data-theme="dark"] .chat-divider,
+html[data-theme="dark"] .chat-date-separator span {
+    background-color: #334155 !important;
+}
+
+html[data-theme="dark"] .chat-filter-tab,
+html[data-theme="dark"] .chat-contact-item,
+html[data-theme="dark"] .chat-contact-item .contact-name,
+html[data-theme="dark"] .chat-main-header p,
+html[data-theme="dark"] .chat-message-sender,
+html[data-theme="dark"] .chat-message-time {
+    color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] .chat-filter-tab:hover,
+html[data-theme="dark"] .chat-contact-item:hover {
+    background-color: #334155 !important;
+}
+
+html[data-theme="dark"] .chat-message-text {
+    background-color: #1e293b !important;
+    border-color: #475569 !important;
+    color: #e2e8f0 !important;
+}
+
+html[data-theme="dark"] .chat-input-area input {
+    background-color: #0f172a !important;
+    border-color: #475569 !important;
+    color: #f8fafc !important;
+}
+
+html[data-theme="dark"] .top-header,
+html[data-theme="dark"] .admin-header,
+html[data-theme="dark"] .header,
+html[data-theme="dark"] .topbar {
+    background-color: #1e293b !important;
+    border-color: #334155 !important;
+    color: #e2e8f0 !important;
+}
+
+.theme-picker {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.theme-choice {
+    flex: 1 1 130px;
+    min-height: 44px;
+    padding: 10px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    background: #fff;
+    color: #334155;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+}
+
+.theme-choice[aria-pressed="true"] {
+    border-color: #005b9f;
+    background: #eaf5fc;
+    color: #00467a;
+    box-shadow: 0 0 0 2px rgba(0, 91, 159, 0.12);
+}
+
+html[data-theme="dark"] .theme-choice {
+    border-color: #475569;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+html[data-theme="dark"] .theme-choice[aria-pressed="true"] {
+    border-color: #38bdf8;
+    background: #164e63;
+    color: #f0f9ff;
+}
